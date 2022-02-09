@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="timePickerRange">
+        <attr name="selected" format="integer" />
+        <attr name="progressColor" format="color" />
+        <attr name="progressBackgroundColor" format="color" />
+        <attr name="divisionColor" format="color" />
+        <attr name="progressStrokeWidth" format="dimension" />
+        <attr name="progressBgStrokeWidth" format="dimension" />
+        <attr name="strokeBottomShadowRadius" format="dimension" />
+        <attr name="strokeTopShadowRadius" format="dimension" />
+        <attr name="strokeBottomShadowColor" format="color" />
+        <attr name="strokeTopShadowColor" format="color" />
+        <attr name="labelColor" format="color" />
+        <attr name="labelFont" format="reference" />
+        <attr name="sleepLayoutId" format="reference" />
+        <attr name="wakeLayoutId" format="reference" />
+        <attr name="nightLayoutId" format="reference" />
+        <attr name="morningLayoutId" format="reference" />
+        <attr name="fixedBedTime" format="boolean" />
+        <attr name="startAngle" format="integer" >
+            <enum name="midnight" value="90" />
+            <enum name="oneAm" value="75" />
+            <enum name="towAm" value="50" />
+            <enum name="threeAm" value="45" />
+            <enum name="fourAm" value="30" />
+            <enum name="fiveAm" value="15" />
+            <enum name="sixAm" value="0" />
+            <enum name="sevenAm" value="-15" />
+            <enum name="eightAm" value="-30" />
+            <enum name="nineAm" value="-45" />
+            <enum name="tenAm" value="-60" />
+            <enum name="elevenAm" value="-75" />
+            <enum name="twelvAm" value="-90" />
+            <enum name="onePm" value="-105" />
+            <enum name="towPm" value="-120" />
+            <enum name="threePm" value="-135" />
+            <enum name="fourPm" value="-150" />
+            <enum name="fivePm" value="-165" />
+            <enum name="sixPm" value="-180" />
+            <enum name="sevenPm" value="-195" />
+            <enum name="eightPm" value="-210" />
+            <enum name="ninePm" value="-225" />
+            <enum name="tenPm" value="-240" />
+            <enum name="elevenPm" value="-255" />
+        </attr>
+        <attr name="endAngle" format="integer" >
+            <enum name="midnight" value="90" />
+            <enum name="oneAm" value="75" />
+            <enum name="towAm" value="50" />
+            <enum name="threeAm" value="45" />
+            <enum name="fourAm" value="30" />
+            <enum name="fiveAm" value="15" />
+            <enum name="sixAm" value="0" />
+            <enum name="sevenAm" value="-15" />
+            <enum name="eightAm" value="-30" />
+            <enum name="nineAm" value="-45" />
+            <enum name="tenAm" value="-60" />
+            <enum name="elevenAm" value="-75" />
+            <enum name="twelvAm" value="-90" />
+            <enum name="onePm" value="-105" />
+            <enum name="towPm" value="-120" />
+            <enum name="threePm" value="-135" />
+            <enum name="fourPm" value="-150" />
+            <enum name="fivePm" value="-165" />
+            <enum name="sixPm" value="-180" />
+            <enum name="sevenPm" value="-195" />
+            <enum name="eightPm" value="-210" />
+            <enum name="ninePm" value="-225" />
+            <enum name="tenPm" value="-240" />
+            <enum name="elevenPm" value="-255" />
+        </attr>
+    </declare-styleable>
+</resources>
