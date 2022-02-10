@@ -53,8 +53,8 @@ afterEvaluate {
                 from components.release
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.mo.svg'
-                artifactId = 'timerange'
-                version = '1.0.9'
+                artifactId = 'timerangepicker'
+                version = '1.0.10'
             }
         }
 
